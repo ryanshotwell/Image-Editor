@@ -1,0 +1,140 @@
+@font-face { font-family: "AlexBrush";
+             src: url("../fonts/AlexBrush-Regular.otf") format("otf"),
+                  url("../fonts/AlexBrush-Regular.woff") format("woff"),
+                  url("../fonts/AlexBrush-Regular.ttf") format("truetype"),
+                  url("../fonts/AlexBrush-Regular.svg#AlexBrush-Regular") format("svg");
+                  font-weight: normal;
+                  font-style: normal;
+           }
+
+html { background: url("../images/background.png") repeat-x;
+	 }
+
+body { margin: 0 auto;
+	 }
+
+a { color: #085aa6;
+	text-decoration: none;
+  }
+
+a:hover { text-decoration: underline;
+		}
+
+fieldset { border-color: #085aa6;
+		   border-radius: 8px;
+		   -moz-border-radius: 8px;
+		   -webkit-border-radius: 8px;
+		   -khtml-border-radius: 8px;
+		   -icab-border-radius: 8px;
+		   -o-border-radius: 8px;
+		 }
+
+form.centered { margin: 0 auto;
+			  }
+
+img.centered { display: block;
+			   margin: 0 auto;
+			 }
+
+#banner { color: #085aa6;
+		  font-family: AlexBrush;
+		  font-size: 40px;
+		  font-weight: 700;
+		  height: 134px;
+		  line-height: 130px;
+		  margin: 0 auto;
+		  padding-left: 5px;
+		  width: 1000px;
+		}
+
+#content { background: #fff;
+		   margin: -12px auto 0 auto;
+		   padding: 6px 8px;
+		   width: 984px;
+		   z-index: -1;
+		   border-bottom-left-radius: 8px;
+		   border-bottom-right-radius: 8px;
+		   -moz-border-radius-bottomleft: 8px;
+		   -moz-border-radius-bottomright: 8px;
+		   -webkit-border-bottom-left-radius: 8px;
+		   -webkit-border-bottom-right-radius: 8px;
+		   -khtml-border-bottom-left-radius: 8px;
+		   -khtml-border-bottom-right-radius: 8px;
+		   -icab-border-bottom-left-radius: 8px;
+		   -icab-border-bottom-right-radius: 8px;
+		   -o-border-bottom-left-radius: 8px;
+		   -o-border-bottom-right-radius: 8px;
+		 }
+
+#crop-inline-labels { margin-top: 5px;
+					  text-align: center;
+					}
+
+#formheader { color: #085aa6;
+			  font-family: AlexBrush;
+			  font-size: 30px;
+			  text-align: center;
+			}
+
+#formimginput { border: 1px solid #085aa6;
+				margin: 4px 10px 10px 10px;
+				padding: 3px 4px;
+				text-align: center;
+				width: 445px;
+				border-radius: 8px;
+				-moz-border-radius: 8px;
+				-webkit-border-radius: 8px;
+				-khtml-border-radius: 8px;
+				-icab-border-radius: 8px;
+				-o-border-radius: 8px;
+			  }
+
+#navbar { background: url("../images/navbar.png") no-repeat;
+		  color: #fff;
+		  font-weight: 700;
+		  height: 41px;
+		  line-height: 27px;
+		  margin: -5px auto 0 auto;
+          padding: 0;
+          text-align: center;
+		  width: 1038px;
+		}
+
+#navbar a { color: #fff;
+			margin: 0 75px;
+			text-decoration: none;
+		  }
+
+#navbar a:hover { color: #ea9598;
+				}
+
+#resizebtn { margin: 6px 0;
+		   }
+
+#resizemethods div { border: 1px solid #085aa6;
+					 display: inline-table;
+					 height: 150px;
+					 margin: 2px 10px;
+					 padding: 3px 4px;
+					 width: 200px; 
+					 border-radius: 8px;
+					 -moz-border-radius: 8px;
+					 -webkit-border-radius: 8px;
+					 -khtml-border-radius: 8px;
+					 -icab-border-radius: 8px;
+					 -o-border-radius: 8px;
+				   }
+
+.badwarning { border: 2px solid #ea9598;
+			  padding: 2px 3px;
+			  text-align: center;
+			  border-radius: 8px;
+			  -moz-border-radius: 8px;
+			  -webkit-border-radius: 8px;
+			  -khtml-border-radius: 8px;
+			  -icab-border-radius: 8px;
+			  -o-border-radius: 8px;
+			}
+
+.centered { text-align: center;
+		  }
